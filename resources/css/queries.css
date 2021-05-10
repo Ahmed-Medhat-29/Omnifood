@@ -1,0 +1,179 @@
+    @media only screen and (max-width: 1200px) {
+        .row {
+            padding: 0 1%;
+            width: 95%;
+        }
+        .hero-text-box {
+            width: 100%;
+            padding: 0 4%;
+        }
+        .city-feature {
+            font-size: 92%;
+        }
+        .plan-box .plan-price-meal {
+            font-size: 92%;
+        }
+        .plan-box ul li {
+            font-size: 85%;
+        }
+        .contact-form {
+            width: 70%;
+        }
+    }
+    
+    @media only screen and (max-width: 1023px) {
+        body {
+            font-size: 18px;
+        }
+        section {
+            padding: 60px 0;
+        }
+        .sticky-nav .main-nav li a:link {
+            padding-bottom: 20px;
+        }
+        .steps-box:last-child {
+            margin-top: 50px;
+        }
+        .app-screen {
+            width: 55%;
+        }
+        .work-steps {
+            margin-bottom: 15%;
+            font-size: 97%;
+        }
+        .btn-app img {
+            height: 45px;
+            width: 140px;
+            margin-right: 20px;
+        }
+        .btn-app-section {
+            margin-top: 10%;
+        }
+        .section-cities h3 {
+            font-size: 108%;
+        }
+        .city-feature i {
+            width: 15px;
+        }
+        .city-feature {
+            margin: 0;
+            font-size: 85%;
+        }
+        .plan-box {
+            width: 100%;
+            margin: 0%;
+        }
+        .plan-box div {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .plan-box div i {
+            margin-right: 10px;
+        }
+        .plan-price {
+            font-size: 180%;
+        }
+        .contact-form {
+            width: 82%;
+        }
+    }
+    
+    @media only screen and (max-width: 767px) {
+        section {
+            padding: 30px 0;
+        }
+        .hero-text-box,
+        .row {
+            padding: 0 4%;
+        }
+        .col {
+            width: 100%;
+            margin: 0 0 4% 0;
+        }
+        .main-nav {
+            float: left;
+            display: none;
+        }
+        .main-nav li:first-child {
+            margin-top: 40px;
+        }
+        .main-nav li {
+            display: block;
+            margin: 5px 0 0 50px;
+        }
+        .sticky-nav .main-nav li {
+            margin: 15px 0 15px 30px;
+        }
+        .sticky-nav .main-nav li a:link,
+        .sticky-nav .main-nav li a:visited {
+            padding: 0
+        }
+        .main-nav li a:link,
+        .main-nav li a:visited {
+            border: 0;
+            display: block;
+            font-size: 100%
+        }
+        .mobile-nav-icon {
+            display: inline-block;
+        }
+        .long-copy {
+            width: 100%;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 180%;
+        }
+        h2 {
+            font-size: 160%;
+        }
+        .work-steps {
+            margin-bottom: 10%;
+            font-size: 110%;
+        }
+        .app-screen {
+            width: 40%;
+        }
+        .btn-app img {
+            height: 50px;
+            width: 160px;
+            margin-right: 20px;
+        }
+        .section-cities img {
+            margin-left: 12%;
+            width: 76%;
+        }
+        .city-feature {
+            line-height: 28px;
+            font-size: 120%;
+        }
+        .city-feature i {
+            width: 30px;
+        }
+        .city-feature-elements {
+            text-align: center;
+        }
+        .plan-box .plan-price-meal {
+            font-size: 120%;
+        }
+        .plan-box ul li {
+            font-size: 120%;
+        }
+    }
+    
+    @media only screen and (max-width: 480px) {
+        section {
+            padding: 25px 0;
+        }
+        .contact-form {
+            width: 100%;
+        }
+        .section-plans h2 {
+            word-wrap: break-word;
+        }
+        .btn-app img {
+            height: 50px;
+            width: 160px;
+            margin-right: 20px;
+        }
+    }
